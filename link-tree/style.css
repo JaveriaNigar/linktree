@@ -1,0 +1,74 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(135deg, #fdfbfb, #ebedee);
+  color: #333;
+  text-align: center;
+  padding: 40px 20px;
+  position: relative;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/* Header */
+header h1 {
+  font-family: 'Lora', serif; /* professional font */
+  font-size: 2.8rem;
+  color: #0f0c0f; 
+  margin-bottom: 30px;
+}
+
+/* Container for links */
+.container {
+  flex: 1;
+}
+
+p {
+  margin-bottom: 30px;
+  font-weight: 500;
+  color: #555;
+}
+
+/* Links buttons */
+.links {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 18px;
+}
+
+.links a {
+  width: 280px;
+  text-decoration: none;
+  color: #444;
+  font-weight: 500;
+  font-size: 1.1rem;
+  padding: 14px 22px;
+  border-radius: 50px;
+  background: #ffffff;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+  transition: all 0.3s ease;
+}
+
+/* Uniform hover effect for all buttons */
+.links a:hover { 
+  background: #e0f7fa; /* light pastel teal */
+  color: #010101;       /* text dark */
+  transform: translateY(-3px);
+  box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+}
+
+/* Footer */
+footer {
+  font-size: 14px;
+  color: #8c8c8c; /* subtle footer color */
+  margin-top: 40px;
+}
